@@ -1,0 +1,27 @@
+@Cadastro.Cliente.API_HostAddress = http://localhost:5096
+
+GET {{Cadastro.Cliente.API_HostAddress}}/api/cliente
+Accept: application/json
+
+POST {{Cadastro.Cliente.API_HostAddress}}/api/usuario/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "usuario@example.com",
+  "senha": "senha123"
+}
+
+POST {{Cadastro.Cliente.API_HostAddress}}/api/usuario/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nome": "Nome do Usuário",
+  "email": "usuario@example.com",
+  "senha": "senha123"
+}
+
+
+
+###
