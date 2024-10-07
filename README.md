@@ -1,4 +1,4 @@
-# challenge_odontoprev_-Net (o projeto esta na branch master)
+# challenge_odontoprev_-Net
 
 Nomes: 
 Nathalia Comeron Freire - rm 553233
